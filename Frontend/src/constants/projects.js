@@ -1,0 +1,38 @@
+export const projectsData = [
+    {
+        id: 1,
+        title: 'Vahan Bazar – AI-Powered Vehicle Marketplace',
+        description: 'Engineered an intelligent marketplace featuring AI-driven price prediction and similarity-based recommendations. Implemented ML models for price estimation, integrated with Node.js APIs and a responsive React frontend.',
+        tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Machine Learning', 'AI'],
+        github: 'https://github.com/anubhavk6106/Vahan-Bazar',
+        live: 'https://vahan-bazar-1.onrender.com/',
+        category: 'Full Stack + AI',
+    },
+    {
+        id: 2,
+        title: 'Smart Study Habit Analyzer',
+        description: 'Developed a full-stack Smart Study Habit Analyzer using the MERN stack and Flask, integrating a trained ML model to analyze student study patterns and provide real-time predictions. Implemented an AI chatbot with vector search using a Kaggle dataset.',
+        tech: ['React', 'Node.js', 'MongoDB', 'Flask', 'Machine Learning', 'AI Chatbot'],
+        github: 'https://github.com/Gautamkumar9297/Smart--study-habit-analyzer',
+        live: 'https://smart-study-habit-analyzer-frontend.onrender.com',
+        category: 'Full Stack + ML',
+    },
+    {
+        id: 3,
+        title: 'Rental Bike Services Platform',
+        description: 'Built an AI-driven engine using collaborative and content-based filtering for personalized product suggestions. Integrated Stripe payment gateway and deployed ML models via REST APIs to ensure high performance and responsive user experience.',
+        tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe', 'AI'],
+        github: 'https://github.com/Gautamkumar9297/Rental-Bike.git',
+        live: 'https://rental-bike-frontend.onrender.com',
+        category: 'Full Stack + Payment',
+    },
+    {
+        id: 4,
+        title: 'Smart Resource Allocation System',
+        description: 'Built an intelligent chat application where users can interact with an AI model for resource allocation. Created the interface in React and handled all API requests through an Express server with AI integration.',
+        tech: ['React', 'Node.js', 'Express', 'AI', 'REST API'],
+        github: 'https://github.com/Gautamkumar9297/Smart-resource-Allocation-System.git',
+        live: 'https://automatevignan.netlify.app/',
+        category: 'Full Stack + AI',
+    },
+];
