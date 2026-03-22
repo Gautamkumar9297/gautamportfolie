@@ -2,11 +2,11 @@ import React, { useEffect } from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
-import Technologies from './pages/Technologies';
-import CompetitiveCoding from './pages/CompetitiveCoding';
-import Resume from './pages/Resume';
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
+import Technologies from './Pages/Technologies';
+import CompetitiveCoding from './Pages/CompetitiveCoding';
+import Resume from './Pages/Resume';
 
 function App() {
   useEffect(() => {
